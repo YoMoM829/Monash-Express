@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #2563eb; /* same as Tailwind bg-blue-600 */
+  color: white;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #1f2937; /* Tailwind bg-gray-800 */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
