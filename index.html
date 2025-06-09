@@ -20,7 +20,7 @@
     <script>
       // Only run on full pages like index.html
       if (document.getElementById("header")) {
-        fetch("./header.html")
+        fetch("src/html/pages/header.html")
           .then((res) => res.text())
           .then((data) => {
             document.getElementById("header").innerHTML = data;
@@ -28,7 +28,7 @@
       }
 
       if (document.getElementById("footer")) {
-        fetch("./footer.html")
+        fetch("src/html/pages/footer.html")
           .then((res) => res.text())
           .then((data) => {
             document.getElementById("footer").innerHTML = data;
