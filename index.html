@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../../CSS/style.css" rel="stylesheet" />
+    <link href="src/CSS/style.css" rel="stylesheet" />
     <title>Monash Express</title>
   </head>
   <body>
@@ -20,7 +20,7 @@
     <script>
       // Only run on full pages like index.html
       if (document.getElementById("header")) {
-        fetch("header.html")
+        fetch("./header.html")
           .then((res) => res.text())
           .then((data) => {
             document.getElementById("header").innerHTML = data;
@@ -28,7 +28,7 @@
       }
 
       if (document.getElementById("footer")) {
-        fetch("footer.html")
+        fetch("./footer.html")
           .then((res) => res.text())
           .then((data) => {
             document.getElementById("footer").innerHTML = data;
